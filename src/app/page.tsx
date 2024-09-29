@@ -95,63 +95,6 @@ export default function Home() {
 			<Projects range={[2]}/>
 			{ newsletter.display &&
 				<>
-		<div className="flex gap-10 p-8">
-      {/* Starter Plan */}
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center m-8">
-        <h2 className="text-xl font-semibold mb-4 pl-16">Starter</h2>
-        <p className="text-3xl font-bold pl-16 mb-4">$10<span className="text-base">/month</span></p>
-        <ul className="mb-4 space-y-2">
-          <li className="border-b pb-2">Feature 1sdkfjnskdjnfkjsdnfksj</li>
-          <li className="border-b pb-2">Feature 2</li>
-          <li className="border-b pb-2">Feature 3</li>
-        </ul>
-		<div className='max-h-[2px'>
-			<Button
-				id="mc-embedded-subscribe"
-				value="Subscribe"
-				size="s"
-				fillWidth>
-				Compre agora
-			</Button>
-		</div>
-      </div>
-
-      {/* Pro Plan */}
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center m-8">
-        <h2 className="text-xl font-semibold mb-4 pl-16">Pro</h2>
-        <p className="text-3xl font-bold mb-4 pl-16">$30<span className="text-base">/month</span></p>
-        <ul className="mb-4 space-y-2">
-          <li className="border-b pb-2">Feature 1 1sdkfjnskdjnfkjsdnfksj</li>
-          <li className="border-b pb-2">Feature 2</li>
-          <li className="border-b pb-2">Feature 3</li>
-        </ul>
-        <Button
-			id="mc-embedded-subscribe"
-			value="Subscribe"
-			size="s"
-			fillWidth>
-			Compre agora
-		</Button>
-      </div>
-
-      {/* Pro+ Plan */}
-      <div className="bg-white p-6 rounded-lg shadow-lg text-center m-8">
-        <h2 className="text-xl font-semibold mb-4 pl-16">Pro+</h2>
-        <p className="text-3xl font-bold mb-4 pl-16">$50<span className="text-base">/month</span></p>
-        <ul className="mb-4 space-y-2">
-          <li className="border-b pb-2">Feature 1 1sdkfjnskdjnfkjsdnfksj</li>
-          <li className="border-b pb-2">Feature 2</li>
-          <li className="border-b pb-2">Feature 3</li>
-        </ul>
-        <Button
-			id="mc-embedded-subscribe"
-			value="Subscribe"
-			size="s"
-			fillWidth>
-			Compre agora
-		</Button>
-      </div>
-    </div>
 
 					<Mailchimp/>
 				</>

@@ -38,7 +38,7 @@ const display = {
 }
 
 const mailchimp = {
-    action: 'https://www.google.com',
+    action: 'https://url/subscribe/post?parameters',
     effects: {
         gradient: false,
         dots:     false,

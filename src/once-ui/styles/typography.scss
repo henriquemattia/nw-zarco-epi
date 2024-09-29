@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: var(--font-family-heading);
 
     &.font-strong, & > .font-strong {
-        font-weight: var(--font-weight-40);
+        font-weight: var(--font-weight-20);
     }
 
     &.font-default, & > .font-default {
@@ -130,8 +130,8 @@ h1, h2, h3, h4, h5, h6, p {
     }
     
     &.font-s, & > .font-s {
-        font-size:   calc(var(--font-size-body-s) * var(--font-size-body-multiplier));
-        line-height: calc(var(--line-height-body-s) * var(--line-height-body-multiplier));
+        font-size:   calc(var(--font-size-body-m) * var(--font-size-body-multiplier));
+        line-height: calc(var(--line-height-body-m) * var(--line-height-body-multiplier));
     }
     
     &.font-xs, & > .font-xs {

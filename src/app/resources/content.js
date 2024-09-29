@@ -14,8 +14,8 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <>Inscrevas no nosso sistema de qualificação</>,
-    description: <>insira seu melhor email</>
+    title: <>Insira seu melhor email</>,
+    // description: <>insira seu melhor email</>
 }
 
 const social = [
@@ -119,7 +119,7 @@ const about = {
         ]
     },
     technical: {
-        display: true, // set to false to hide this section
+        display: false, // set to false to hide this section
         title: 'Technical skills',
         skills: [
             {

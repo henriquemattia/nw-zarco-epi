@@ -74,7 +74,6 @@ export const Mailchimp = () => {
                 wrap="balance"
                 marginBottom="l"
                 onBackground="neutral-medium">
-                {newsletter.description}
             </Text>
             <form
                 style={{
